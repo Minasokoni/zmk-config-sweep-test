@@ -31,7 +31,7 @@ layers:
   - .
   - /
   - {t: TAB, h: left}
-  - {t: SPC, h: Ctl+Sft+ LALT}
+  - {t: SPC, h: Ctl+Sft+LALT}
   - RETURN
   - {t: BSPC, h: right}
   right:
@@ -64,7 +64,7 @@ layers:
   - VOL DN
   - VOL UP
   - NEXT
-  - {t: ▽, type: trans}
+  - PLAY PAUSE
   - {t: ▽, type: trans}
   - ESC
   - {t: ▽, type: trans}
@@ -139,41 +139,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  function:
-  - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F4
-  - F5
-  - F6
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F7
-  - F8
-  - F9
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
 combos:
 - p: [0, 1]
   k: TAB
